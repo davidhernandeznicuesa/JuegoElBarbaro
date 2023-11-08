@@ -116,8 +116,8 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Curso_Videojuegos/ElBarbaro/Library/PackageCache/com.unity.testtools.codecoverage@1.2.3/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"C:/Curso_Videojuegos/ElBarbaro/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro/Library/PackageCache/com.unity.testtools.codecoverage@1.2.3/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -347,6 +347,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CharacterMovement.cs"
 "Assets/Scripts/Enemy01Move.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/KnifeDestruction.cs"
 "Assets/Scripts/SmoothFollow.cs"
 -langversion:9.0
