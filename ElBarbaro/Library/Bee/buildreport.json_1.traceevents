@@ -1,0 +1,494 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1698253408131026, "dur": 2671890, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698253408131262, "dur": 6963, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698253408138227, "dur": 24718, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698253408162947, "dur": 542398, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698253408705347, "dur": 2079627, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698253410784975, "dur": 17932, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698253410804572, "dur": 47, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1698253408555047, "dur": 143124, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698253408556100, "dur": 42983, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698253408683488, "dur": 4212, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698253408687703, "dur": 10462, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698253408688369, "dur": 9257, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698253408702334, "dur": 1229, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698253408701586, "dur": 1999, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698253410804886, "dur": 681, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698253408742951, "dur":755, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253408743709, "dur":52, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698253408743782, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698253408743798, "dur":363, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698253408744178, "dur":441, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253408744619, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755028, "dur":211, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755239, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755265, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755268, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755277, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755280, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755287, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755289, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755298, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755300, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755307, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755309, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755315, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755317, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755322, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755324, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755329, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755330, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755334, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755336, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755340, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755342, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755352, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755353, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755360, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755376, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410755403, "dur":1256, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698253408744412, "dur":211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253408744625, "dur":3527, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253408748160, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698253408748166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253408751415, "dur":326, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698253408751747, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698253408751788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253408752009, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698253408754186, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1698253408754320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253408757410, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1698253408759432, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1698253408759593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253408759599, "dur":33874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1698253408793521, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1698253408793629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253408807745, "dur":245445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1698253409053276, "dur":54408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409107713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409115367, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409116799, "dur":22903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409139708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409139717, "dur":13050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409152803, "dur":46089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409198894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409198900, "dur":3463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409202401, "dur":48204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409250611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409250622, "dur":5801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409256456, "dur":20880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409277343, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409277355, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409278591, "dur":18925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409297520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409297526, "dur":13112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409310683, "dur":22111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409332798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409332804, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409334136, "dur":24729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409358870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409358879, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409359862, "dur":26929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409386796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409386803, "dur":26126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409412974, "dur":58878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409471856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409471863, "dur":3921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409475816, "dur":161450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409637271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409637279, "dur":90448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409727767, "dur":154841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409882612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698253409882618, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698253409883751, "dur":871299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253408744784, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253408744784, "dur":3368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253408748160, "dur":25649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1698253408773813, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253408793144, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1698253408794139, "dur":335110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409129254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409129264, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409131877, "dur":21956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409153836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409153842, "dur":47375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409201251, "dur":37505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409238760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409238767, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409239696, "dur":22131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409261833, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409261844, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409262795, "dur":43739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409306538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409306545, "dur":4769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409311351, "dur":21185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409332539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409332552, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409335007, "dur":18644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409353656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409353663, "dur":4045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409357751, "dur":35812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409393587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409393593, "dur":19182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409412817, "dur":77931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409490753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409490761, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409492150, "dur":78234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409570386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409570390, "dur":12611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409583035, "dur":43146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409626186, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409626200, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409627298, "dur":95722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409723024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409723031, "dur":4864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409727951, "dur":29732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409757687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698253409757697, "dur":13337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698253409771071, "dur":983954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253408744510, "dur":145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253408744655, "dur":3546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253408748202, "dur":12851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698253408761056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253408761066, "dur":32482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698253408793596, "dur":307367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409100967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253409101147, "dur":15003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409116185, "dur":89161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409205354, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253409205366, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409206466, "dur":33281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409239750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253409239759, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409241755, "dur":16941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409258699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253409258706, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409260162, "dur":18413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409278579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253409278586, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409280165, "dur":44561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409324730, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253409324738, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409326312, "dur":53265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409379580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253409379587, "dur":33571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409413194, "dur":69749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409482948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253409482956, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409484134, "dur":144225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409628364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253409628375, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409630193, "dur":155195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409785393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698253409785399, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698253409787418, "dur":967618, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253408744630, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253408744631, "dur":3572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253408748204, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1698253408748340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253408754786, "dur":38745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1698253408793580, "dur":352615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409146198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409146203, "dur":54228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409200485, "dur":37734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409238226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409238235, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409239366, "dur":19223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409258594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409258605, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409259770, "dur":18847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409278679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409278686, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409280250, "dur":30819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409311073, "dur":91, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409311173, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409312334, "dur":19720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409332061, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409332075, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409333017, "dur":28759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409361780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409361788, "dur":49321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409411150, "dur":41811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409452965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409452973, "dur":22658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409475668, "dur":93968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409569639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409569644, "dur":13345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409583024, "dur":150257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409733284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409733292, "dur":7095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698253409740432, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1698253409740472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409740478, "dur":29873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1698253409770585, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1698253409770800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698253409770818, "dur":16084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1698253409786936, "dur":968114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253408744571, "dur":88, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253408744659, "dur":3541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253408748200, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1698253408748711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253408752038, "dur":5507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1698253408757601, "dur":7587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698253408765192, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253408765202, "dur":28354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698253408793602, "dur":314060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409107666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253409115362, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409116721, "dur":28556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409145282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253409145289, "dur":33260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409178591, "dur":120606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409299201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253409299207, "dur":11729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409310984, "dur":38708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409349699, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253409349712, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409350924, "dur":20371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409371301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253409371311, "dur":40124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409411478, "dur":28144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409439627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253409439636, "dur":4927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409444596, "dur":77352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409521953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253409521962, "dur":12368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409534368, "dur":34080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409568454, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253409568465, "dur":14206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409582721, "dur":183679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409766404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698253409766410, "dur":5392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698253409771848, "dur":983179, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698253408744728, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698253408744728, "dur":3447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698253408748175, "dur":10392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1698253408758570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698253408758628, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1698253408760141, "dur":1039984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698253409800129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698253409800189, "dur":4079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698253409804303, "dur":950725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253408744850, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253408744850, "dur":3304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253408748160, "dur":14850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1698253408763017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253408763024, "dur":15300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1698253408778369, "dur":23587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro.exe" }}
+,{ "pid":12345, "tid":7, "ts":1698253408801960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253408801965, "dur":6463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro.exe" }}
+,{ "pid":12345, "tid":7, "ts":1698253408808453, "dur":331923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409140380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253409140386, "dur":25840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409166265, "dur":31758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409198029, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253409198038, "dur":4101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409202181, "dur":48454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409250638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253409250644, "dur":5756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409256439, "dur":35056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409291502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253409291511, "dur":8433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409299981, "dur":17503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409317493, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253409317508, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409318817, "dur":23653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409342478, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253409342493, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409344837, "dur":46735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409391576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253409391582, "dur":20841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409412468, "dur":45460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409457933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253409457941, "dur":17612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409475593, "dur":59870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409535468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253409535476, "dur":12403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409547915, "dur":85609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409633531, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253409633541, "dur":92782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409726359, "dur":46658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409773020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698253409773027, "dur":14247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698253409787301, "dur":967730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253408744955, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253408744955, "dur":3198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253408748160, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1698253408748338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253408752373, "dur":5201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1698253408757622, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1698253408757768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253408757824, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1698253408759400, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1698253408759506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253408759513, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1698253408760726, "dur":360733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1698253409121461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409121468, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1698253409123559, "dur":21720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409145284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409145291, "dur":20758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409166100, "dur":23201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409189306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409189313, "dur":12708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409202053, "dur":122857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409324914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409324920, "dur":7507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409332472, "dur":27250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409359725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409359732, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409361026, "dur":17296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409378328, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409378338, "dur":32964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409411338, "dur":137903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409549246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409549255, "dur":10307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409559595, "dur":30414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409590015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409590023, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409591243, "dur":105910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409697157, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409697170, "dur":31235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698253409728439, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1698253409728486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409728554, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1698253409729980, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698253409730021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409730026, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698253409731950, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1698253409732079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409732090, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1698253409733290, "dur":3842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1698253409737147, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409737174, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1698253409738780, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698253409738832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409738842, "dur":19267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698253409758153, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1698253409758191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698253409758195, "dur":12962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1698253409771194, "dur":983832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698253408745018, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698253408745019, "dur":3183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698253408748202, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1698253408748342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698253408755001, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1698253408759387, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1698253408759538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698253408759546, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1698253408760703, "dur":1980224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698253410740940, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698253410740957, "dur":14009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698253410754997, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1698253410755000, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253408745111, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253408745112, "dur":3091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253408748203, "dur":10307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1698253408758513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253408758520, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1698253408759804, "dur":217799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253408977617, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409002538, "dur":15538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409018107, "dur":101979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409120091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409120099, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409121277, "dur":18423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409139707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409139717, "dur":13149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409152905, "dur":11820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409164729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409164735, "dur":35700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409200485, "dur":19655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409220144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409220153, "dur":9241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409229434, "dur":29839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409259277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409259289, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409260297, "dur":35785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409296085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409296089, "dur":14552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409310682, "dur":27196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409337887, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409337901, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409339171, "dur":111670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409450846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409450854, "dur":24280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409475168, "dur":234317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409709506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409709513, "dur":20365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698253409729917, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1698253409729961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409729968, "dur":15966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1698253409745974, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1698253409746009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698253409746016, "dur":24791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1698253409770864, "dur":984158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253408745087, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253408745087, "dur":3114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253408748201, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1698253408748346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253408793276, "dur":14834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1698253408808152, "dur":319210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409127369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253409127379, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409128513, "dur":18584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409147100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253409147109, "dur":31148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409178299, "dur":141482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409319786, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253409319797, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409321584, "dur":23181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409344772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253409344782, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409345669, "dur":30315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409375990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253409375999, "dur":35672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409411707, "dur":24066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409435780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253409435790, "dur":7620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409443450, "dur":212195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409655650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253409655658, "dur":71631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409727359, "dur":213890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409941253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698253409941259, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698253409944321, "dur":810715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253408745169, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253408745170, "dur":3005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253408748175, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1698253408748552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253408752027, "dur":5552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1698253408757628, "dur":7821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1698253408765452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253408765457, "dur":28511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1698253408794007, "dur":334048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409128060, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253409128070, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409129336, "dur":50256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409179596, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253409179603, "dur":22293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409201938, "dur":93937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409295879, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253409295888, "dur":15052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409310987, "dur":83050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409394039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253409394044, "dur":18678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409412768, "dur":89968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409502740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253409502747, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409503851, "dur":64663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409568517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253409568522, "dur":14200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409582767, "dur":172169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409754941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698253409754950, "dur":17473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Curso_Videojuegos/JuegoElBarbaro/ElBarbaro_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698253409772456, "dur":982568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698253410757804, "dur":1426, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1698253410805750, "dur": 2348, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698253410804539, "dur": 3629, "ph": "X", "name": "Write chrome-trace events", "args": {} },
