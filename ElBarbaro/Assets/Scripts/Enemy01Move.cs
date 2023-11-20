@@ -10,11 +10,14 @@ public class Enemy01Move : MonoBehaviour
     private Transform player;
     private NavMeshAgent nav;
     private Animator anim;
-    // Start is called before the first frame update
+    //Variable para acceder a la clase enemy01Health
+    private Enemy01Health enemyHealth;
     void Start()
     {
         anim = GetComponent<Animator>();
         nav = GetComponent<NavMeshAgent>();
+        //Cargamos la clase.
+        enemyHealth = GetComponent<Enemy01Health>();
     }
 
     // Update is called once per frame
@@ -23,17 +26,30 @@ public class Enemy01Move : MonoBehaviour
         //Preguntamos si la distancia está dentro del radio de acción del enemigo.
         if (Vector3.Distance(player.position,this.transform.position) < 6)
         {
-            //Le decimos al enemigo que siga al player.
-            nav.SetDestination(player.position);
-            //Activamos la animación de pasear.
-            anim.SetBool("isWalking", true);
-            //Desacrtivo la animacióm de esperar.
-            anim.SetBool("isIdle", false);
+            //Preguntamos si está vivo.
+            if (!GameManager.instance.GameOver && enemyHealth.IsAlive)
+            {
+                //Le decimos al enemigo que siga al player.
+                nav.SetDestination(player.position);
+                //Activamos la animación de pasear.
+                anim.SetBool("isWalking", true);
+                //Desacrtivo la animacióm de esperar.
+                anim.SetBool("isIdle", false);
+            }else if(GameManager.instance.GameOver || !enemyHealth.IsAlive)
+            {
+                //Desactivamos la animación de pasear.
+                anim.SetBool("isWalking", false);
+                //Acrtivo la animacióm de esperar.
+                anim.SetBool("isIdle", true);
+                //desactivo el camino de NavMesh
+                nav.enabled = false;
+            }
+            
         }
        else
         {
             //Le decimos que se quede en el sitio.
-            nav.SetDestination(this.transform.position);
+           // nav.SetDestination(this.transform.position);
             //Desactivamos la animación de pasear.
             anim.SetBool("isWalking", false);
             //Acrtivo la animacióm de esperar.

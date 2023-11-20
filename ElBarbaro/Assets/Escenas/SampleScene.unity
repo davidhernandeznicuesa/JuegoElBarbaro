@@ -472,6 +472,7 @@ GameObject:
   - component: {fileID: 1618864503}
   - component: {fileID: 1618864505}
   - component: {fileID: 1618864506}
+  - component: {fileID: 1618864507}
   m_Layer: 0
   m_Name: Enemy01
   m_TagString: weapon
@@ -595,6 +596,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 3
   timeBetweenAttacks: 1
+--- !u!114 &1618864507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618864499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8be766958e29e4cb0afccd280e4900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 20
+  timeSinceLastHit: 0
+  dissapearSpeed: 2
+  currentHealth: 0
 --- !u!1001 &1675723957
 PrefabInstance:
   m_ObjectHideFlags: 0

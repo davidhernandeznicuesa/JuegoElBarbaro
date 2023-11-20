@@ -33,6 +33,8 @@ public class Enemy01Health : MonoBehaviour
     private CapsuleCollider capsuleCollider;
     //Preguntar si ha desaparecido.
     private bool dissapearEnemy = false;
+    //BoxCollider del arma
+    private BoxCollider weaponCollider;
 
     //Hacemos una propiedad de di está vivo.
     public bool IsAlive
@@ -42,6 +44,8 @@ public class Enemy01Health : MonoBehaviour
     }
     void Start()
     {
+        //Cogemos el BoxCllider hijo.
+        weaponCollider = GetComponentInChildren<BoxCollider>();
         //Inicializar las variables.
         rigidBbody = GetComponent<Rigidbody>();
         capsuleCollider = GetComponent<CapsuleCollider>();
@@ -54,7 +58,14 @@ public class Enemy01Health : MonoBehaviour
   
     void Update()
     {
+        //Cogemos el tiempo real.
         timer += Time.deltaTime;
+        //Hundimos el personaje.
+        if (dissapearEnemy)
+        {
+            //Movemos el cadaver al interior de la plataforma.
+            transform.Translate(Vector3.down * dissapearSpeed * Time.deltaTime);
+        }
     }
     //Cuando colisiona el cuchillo con el enemigo.
     private void OnTriggerEnter(Collider other)
@@ -81,5 +92,38 @@ public class Enemy01Health : MonoBehaviour
             anim.Play("hurt");
             currentHealth -= 10;
         }
+        //Si está el enemigo muerto 
+        if (currentHealth<=0)
+        {
+            isAlive = false;
+            //Llamamos al método de animación de morirse.
+            KillEmemy();
+        }
+    }
+    //Método de activar animación de muerte de enemigo
+    private void KillEmemy()
+    {
+        //Desactivar el Collider.
+        capsuleCollider.enabled = false;
+        //Desactivar el camino.
+        nav.enabled = false;
+        //Activar la animación de morirse.
+        anim.SetTrigger("EnemyDie");
+        //Activar la función manual del rigidbody.
+        rigidBbody.isKinematic = true;
+        //activar la coroutine.
+        StartCoroutine(removeEnemy());
+        //Desactivamos el Collider del arma
+        weaponCollider.enabled = false;
+    }
+    // Tiempo que tarde en desaparecer el personaje.
+    IEnumerator removeEnemy()
+    {
+        //Hacer desaparecer el enemigo a los 2 segundos.
+        yield return new WaitForSeconds(2f);
+        dissapearEnemy = true;
+        //Destruye el objeto al cabo de 1 segundo.
+        yield return new WaitForSeconds(1f);
+        Destroy(gameObject);
     }
 }

@@ -14,8 +14,10 @@ public class Enemy01Attack : MonoBehaviour
     private GameObject player;
     private bool playerInRange;
     private BoxCollider weaponCollider;
+    //Variable para acceder a la clase enemy01Health
+    private Enemy01Health enemyHealth;
 
-    
+
     void Start()
     {
         //Inicializar variables.
@@ -23,12 +25,14 @@ public class Enemy01Attack : MonoBehaviour
         player = GameManager.instance.Player;
         weaponCollider = GetComponentInChildren<BoxCollider>();
         StartCoroutine(attack());
+        //Cargamos la clase.
+        enemyHealth = GetComponent<Enemy01Health>();
     }
 
   
     void Update()
     {
-        if (Vector3.Distance(transform.position,player.transform.position)< range)
+        if (Vector3.Distance(transform.position,player.transform.position)< range && enemyHealth.IsAlive)
         {
             playerInRange = true;
             
