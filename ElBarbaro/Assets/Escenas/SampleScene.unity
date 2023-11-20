@@ -455,7 +455,7 @@ MonoBehaviour:
   xSmooth: 10
   ySmooth: 10
   maxXandY: {x: 90, y: 15}
-  minXandY: {x: -6, y: 2.5}
+  minXandY: {x: -6, y: 6}
   cameraTarget: {fileID: 0}
 --- !u!1 &1618864499
 GameObject:
@@ -471,9 +471,10 @@ GameObject:
   - component: {fileID: 1618864504}
   - component: {fileID: 1618864503}
   - component: {fileID: 1618864505}
+  - component: {fileID: 1618864506}
   m_Layer: 0
   m_Name: Enemy01
-  m_TagString: Untagged
+  m_TagString: weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -486,7 +487,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618864499}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 23.331913, y: 5.345573, z: -2.9652386}
+  m_LocalPosition: {x: 36.83, y: 5.345573, z: -2.9652386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -502,7 +503,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618864499}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.81
   m_Height: 3.24
@@ -522,7 +523,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 84
+  m_Constraints: 124
   m_CollisionDetection: 0
 --- !u!114 &1618864503
 MonoBehaviour:
@@ -580,6 +581,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1618864506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618864499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf559eb919100443b14997d75320a26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 3
+  timeBetweenAttacks: 1
 --- !u!1001 &1675723957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -688,6 +703,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7869425140648604126, guid: f733220f5d0696e4bb733219e62960fa, type: 3}
+      propertyPath: m_TagString
+      value: weapon
+      objectReference: {fileID: 0}
     - target: {fileID: -451868418275834056, guid: f733220f5d0696e4bb733219e62960fa, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -720,7 +739,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740677773}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.41, y: 0.98, z: 1.05}
@@ -769,6 +788,7 @@ GameObject:
   - component: {fileID: 2016222969}
   - component: {fileID: 2016222968}
   - component: {fileID: 2016222972}
+  - component: {fileID: 2016222973}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -815,7 +835,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!136 &2016222970
 CapsuleCollider:
@@ -871,6 +891,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2016222973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016222967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26f0ada0cb038545932bf7aa6388845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  timeSinceLastHit: 2
+  currentHealth: 0
+  timer: 0
 --- !u!1001 &2122860862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1040,6 +1076,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6173861045234639780, guid: d955b02630dfeb948b570ef26cabe20c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2016222967}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d955b02630dfeb948b570ef26cabe20c, type: 3}
 --- !u!1001 &4943787302635807109
@@ -1049,30 +1089,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8396521198197831868, guid: c92881dfb4c4ed5499fe99cc09cf5530, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8396521198309797625, guid: c92881dfb4c4ed5499fe99cc09cf5530, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8396521198557224264, guid: c92881dfb4c4ed5499fe99cc09cf5530, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8396521198645606360, guid: c92881dfb4c4ed5499fe99cc09cf5530, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8396521198976293412, guid: c92881dfb4c4ed5499fe99cc09cf5530, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8396521200162204493, guid: c92881dfb4c4ed5499fe99cc09cf5530, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 8666902995085824877, guid: c92881dfb4c4ed5499fe99cc09cf5530, type: 3}
       propertyPath: m_Name
       value: Plataforma Media
