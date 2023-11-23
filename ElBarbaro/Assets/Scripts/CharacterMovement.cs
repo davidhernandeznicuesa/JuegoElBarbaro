@@ -32,6 +32,14 @@ public class CharacterMovement : MonoBehaviour
     public Rigidbody knifePrefab;
     //Variable de el cuchillo creado.
     Rigidbody clone;
+    //Variable para que emita sonido el Player cuando salte.
+    private AudioSource audio;
+    //Para reproducir el audio salto.
+    [SerializeField]
+    private AudioClip jumpAudio;
+    //Para reproducir el audio disparo.
+    [SerializeField]
+    private AudioClip shotAudio;
 
     // Start is called before the first frame update
 
@@ -56,6 +64,7 @@ public class CharacterMovement : MonoBehaviour
         knifeSpeed = 600.0f;
         //Cargar el objeto vacío de donde sale el cuchillo, delante de la barbilla del jugador. 
         knifeSpawn = GameObject.Find("KnifeSpawn").transform;
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -66,6 +75,8 @@ public class CharacterMovement : MonoBehaviour
         //Preguntamos por el botón de salto.
         if (grounded && Input.GetButtonDown("Jump"))
         {
+            //Emite el sonido muerto una sola vez.
+            audio.PlayOneShot(jumpAudio);
             //Cartgamos la animación de salto.
             anim.SetTrigger("IsJumping");
             //La damos la fuerza para que salte.
@@ -106,6 +117,8 @@ public class CharacterMovement : MonoBehaviour
     //Método de ataque.
     void Attack()
     {
+        //Emite el sonido del cuchillo una sola vez.
+        audio.PlayOneShot(shotAudio);
         anim.SetTrigger("attacking");   
     }
     public void CallFireProjecttile()

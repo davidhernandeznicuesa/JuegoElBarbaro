@@ -46,25 +46,25 @@ public class Enemy01Move : MonoBehaviour
             }
             
         }
-       else
-        {
-            //Le decimos que se quede en el sitio.
-           // nav.SetDestination(this.transform.position);
-            //Desactivamos la animación de pasear.
-            anim.SetBool("isWalking", false);
-            //Acrtivo la animacióm de esperar.
-            anim.SetBool("isIdle", true);
-        }
-        //Cuando mueres hacer esto.
-        if (GameManager.instance.GameOver)
-        {
-            //Le decimos que se quede en el sitio.
-            nav.SetDestination(this.transform.position);
-            //Desactivamos la animación de pasear.
-            anim.SetBool("isWalking", false);
-            //Acrtivo la animacióm de esperar.
-            anim.SetBool("isIdle", true);
-        }
+       //else "no sirve"
+       // {
+       //     //Le decimos que se quede en el sitio.
+       //     //nav.SetDestination(this.transform.position);
+       //     //Desactivamos la animación de pasear.
+       //     anim.SetBool("isWalking", false);
+       //     //Acrtivo la animacióm de esperar.
+       //     anim.SetBool("isIdle", true);
+       // }
+       // //Cuando mueres hacer esto.
+       // if (GameManager.instance.GameOver)
+       // {
+       //     //Le decimos que se quede en el sitio.
+       //     //nav.SetDestination(this.transform.position);
+       //     //Desactivamos la animación de pasear.
+       //     anim.SetBool("isWalking", false);
+       //     //Acrtivo la animacióm de esperar.
+       //     anim.SetBool("isIdle", true);
+       // }
        
     }
 }

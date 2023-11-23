@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -12,14 +13,25 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int currentHealth;
     //Iniciar el contador de tiempo entre ataques.
     [SerializeField] private float timer = 0f;
+    //Variable para mamejar el slider.
+    [SerializeField] Slider healthSlider;
     //Animación.
     private Animator anim;
     //
     private CharacterMovement characterMovement;
+    //Variable para que emita sonido el Player.
+    private AudioSource audio;
+    //Para reproducir el audio herido.
+    [SerializeField]
+    private AudioClip hurtAudio;
+    //Para reproducir el audio muerto.
+    [SerializeField]
+    private AudioClip dieAudio;
 
-    
+
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
         currentHealth = startingHealth;
     }
@@ -62,16 +74,23 @@ public class PlayerHealth : MonoBehaviour
         anim.Play("Hurt");
         //Se resta cantidad de vida
         currentHealth -= 10;
+        //Descantar en la barra.
+        healthSlider.value = currentHealth;
+        //Emite el sonido herido una sola vez.
+        audio.PlayOneShot (hurtAudio);
         }
         //si no le queda vida.
         if (currentHealth <= 0)
         {
             //Mandamos la vida que le queda.
             GameManager.instance.PlayerHit(currentHealth);
+            //Emite el sonido muerto una sola vez.
+            audio.PlayOneShot(dieAudio);
             //Se ejecuta animación de la muerte.
             anim.SetTrigger("isDead");
             //Desactivamos el movimiento del player.
             characterMovement.enabled = false;
+           
         }
         
     }
