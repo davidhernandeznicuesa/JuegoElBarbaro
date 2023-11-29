@@ -12,6 +12,8 @@ public class BossCheckPoint : MonoBehaviour
     private CharacterMovement characterMovement;
     //Cargar variable para cargar animación de Player.
     private Animator playerAnimator;
+    //Variable para la gestion de SmoothCheckFollow
+    private SmoothFollow smoothFollow;
     void Start()
     {
         //cogemos el collider
@@ -22,6 +24,8 @@ public class BossCheckPoint : MonoBehaviour
         characterMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterMovement>();
         //Cargaar el animator del Player.
         playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+        //Cargar el smoothFollow
+        smoothFollow = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<SmoothFollow>();
 
     }
 
@@ -43,6 +47,8 @@ public class BossCheckPoint : MonoBehaviour
             characterMovement.enabled = false;
             //Activas la animación.
             playerAnimator.Play("Player_Idle");
+            //Activamos el BosscameraActive
+            smoothFollow.bossCameraActive = true;
         }
     }
 }

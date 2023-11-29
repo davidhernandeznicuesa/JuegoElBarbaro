@@ -76,7 +76,9 @@ public class SmoothFollow : MonoBehaviour
         //si esta el jefe activo.
         if (bossCameraActive)
         {
-            transform.position = new Vector3 (Mathf.Lerp(transform.position.x, bossCameraTarget.position.x, 1.0f / cameraSpeed), Mathf.Lerp(transform.position.y, bossCameraTarget.position.y, 1.0f / cameraSpeed), Mathf.Lerp(transform.position.z, bossCameraTarget.position.z, 1.0f / cameraSpeed));
+            transform.position = new Vector3 (Mathf.Lerp(transform.position.x, bossCameraTarget.position.x, 1.0f / cameraSpeed),
+                Mathf.Lerp(transform.position.y, bossCameraTarget.position.y, 1.0f / cameraSpeed), 
+                Mathf.Lerp(transform.position.z, bossCameraTarget.position.z, 1.0f / cameraSpeed));
         }
         else 
         {
