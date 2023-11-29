@@ -16,10 +16,18 @@ public class SmoothFollow : MonoBehaviour
 
     public Transform cameraTarget;
 
+    //Variables camare del Boss.
+    public Transform bossCameraTarget;
+    public bool bossCameraActive = false;
+    public float cameraSpeed = 30.0f;
+
     //metodo de carga anterior al Start.
     private void Awake()
     {
+        //Cargamos la cámara del Player
         cameraTarget = GameObject.FindGameObjectWithTag("CameraTarget").transform;
+        //Cargamos la cámara del Boss.
+        bossCameraTarget = GameObject.FindGameObjectWithTag("BossCameraTarget").transform;
     }
     //Métodos que comprueban que estamos dentro de la pantalla.
     bool CheckXMargin()
@@ -65,7 +73,16 @@ public class SmoothFollow : MonoBehaviour
         targetX = Mathf.Clamp(targetX, minXandY.x, maxXandY.x);
         //Clamp sirve para darle un valor mínimo y un valor máximo en Y.
         targetY = Mathf.Clamp(targetY, minXandY.y, maxXandY.y);
+        //si esta el jefe activo.
+        if (bossCameraActive)
+        {
+            transform.position = new Vector3 (Mathf.Lerp(transform.position.x, bossCameraTarget.position.x, 1.0f / cameraSpeed), Mathf.Lerp(transform.position.y, bossCameraTarget.position.y, 1.0f / cameraSpeed), Mathf.Lerp(transform.position.z, bossCameraTarget.position.z, 1.0f / cameraSpeed));
+        }
+        else 
+        {
+            transform.position = new Vector3(targetX, targetY, transform.position.z);
+        }
 
-        transform.position = new Vector3(targetX, targetY, transform.position.z);
+       // transform.position = new Vector3(targetX, targetY, transform.position.z);
     }
 }

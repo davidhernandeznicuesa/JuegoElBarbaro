@@ -54,7 +54,7 @@ public class CharacterMovement : MonoBehaviour
         //Cargamos el anim con el componente Animator.
         anim = GetComponent<Animator>();
         //inicializo la variable de salto.
-        jumpSpeed = 600.0f;
+        jumpSpeed = 800.0f;
         grounded = false;
         //cargar el transform.
         groundCheck = GameObject.Find("GroundCheck").transform;
