@@ -27,6 +27,30 @@ public class PlayerHealth : MonoBehaviour
     //Para reproducir el audio muerto.
     [SerializeField]
     private AudioClip dieAudio;
+    //Propiedades
+    public int CurrentHealth
+    {
+        get { return currentHealth; }
+        set
+        {
+            if (value < 0)
+                currentHealth = 0;
+            else
+                currentHealth = value;
+        }
+    }
+    public float Timer
+    {
+        get { return timer; }
+        set
+        {
+            timer = 0;
+        }
+    }
+    public Slider HealthSlider
+    {
+        get { return healthSlider; }
+    }
 
 
     void Start()

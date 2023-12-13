@@ -17,7 +17,7 @@ public class BossController : MonoBehaviour
     public float attackWaitTime = 2.0f;
     //public int attackCount = 1;
 
-    //public GameObject bossHealthBar;
+    public GameObject bossHealthBar;
 	//Variable para coger el boxcollider de la espada.
     private BoxCollider swordTrigger;
 
@@ -33,7 +33,7 @@ public class BossController : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        //bossHealthBar.SetActive(false);
+        bossHealthBar.SetActive(false);
 		//Para gargar el collider de la espada,para evitar que nos estorve en el ataque.
         swordTrigger = GameObject.Find("Boss").GetComponentInChildren<BoxCollider>();
         //smoothFollow = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<SmoothFollow>();
@@ -55,7 +55,8 @@ public class BossController : MonoBehaviour
             print("Boss is Awake");
 			//Cargamos la animación de Salto inicial.
             anim.SetBool("bossAwake", true);
-			//	bossHealthBar.SetActive(true);
+			//Activamos la bbara de vida del jefe para mostrarla en el juego.
+			bossHealthBar.SetActive(true);
 			//Si está en posición de batalla.
 			if (inBattle)
 			{
@@ -77,6 +78,7 @@ public class BossController : MonoBehaviour
 					{
 						//Si puede atacar.Estoy atacando y no puedo atacar de nuevo hasta que no pase el tiempo.
 						attacking = false;
+						anim.SetTrigger("bossAttack");
 						attackTimer = 0.0f;
 						print("Boss Smash");
 						//Collider espada activa.

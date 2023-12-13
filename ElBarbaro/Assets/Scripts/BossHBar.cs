@@ -10,10 +10,17 @@ public class BossHBar : MonoBehaviour
     private float fillAmount;
     [SerializeField]
     private Image fill;
+
+    public float lerpSpeed;
+    public GameObject headTrigger;
+    private BossHealth health;
+    public int currentHealth;
+    public float maxHealth;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Coger la salud del jefe en el collider de  headTrigger.
+        health = headTrigger.GetComponent<BossHealth>();
     }
 
     // Update is called once per frame
@@ -24,6 +31,14 @@ public class BossHBar : MonoBehaviour
 
     private void HandleBar()
     {
-        fill.fillAmount = fillAmount;
+        //Ajusta la velocidad de bajada de la barra de vida.
+        fill.fillAmount = Mathf.Lerp(fill.fillAmount, fillAmount, Time.deltaTime * lerpSpeed);
+        //Si tienes vida.
+        if (currentHealth >= 0)
+        {
+            //vuelve a darle vida a jefe.
+            currentHealth = health.bossHealth;
+            fillAmount = (currentHealth / maxHealth);
+        }
     }
 }
