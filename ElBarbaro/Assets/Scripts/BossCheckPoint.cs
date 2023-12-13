@@ -26,6 +26,7 @@ public class BossCheckPoint : MonoBehaviour
         playerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
         //Cargar el smoothFollow
         smoothFollow = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<SmoothFollow>();
+        
 
     }
 
@@ -49,6 +50,8 @@ public class BossCheckPoint : MonoBehaviour
             playerAnimator.Play("Player_Idle");
             //Activamos el BosscameraActive
             smoothFollow.bossCameraActive = true;
+            //Hacemos que salte más el player.
+            characterMovement.jumpSpeed = 800.0f;
         }
     }
 }
